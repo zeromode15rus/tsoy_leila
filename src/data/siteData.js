@@ -1,8 +1,8 @@
 /**
  * Кабинет ультразвуковой диагностики — врач Цой Л.Б.
  * Фото: положите файл в public/photo/ и укажите имя в workers[0].photoPath
- * Лицензия: public/docs/license.pdf
- * Контакты: заполните contacts.address, contacts.phones
+ * Лицензия: файл в public/docs/
+ * Контакты: адрес и телефоны кабинета
  */
 
 export const siteData = {
@@ -93,11 +93,11 @@ export const siteData = {
     sectionTitle: 'Лицензия',
     documentHeader: null,
     licenseeParagraphs: [
-      'Сведения о лицензии и реквизитах размещаются на сайте после загрузки скана в файл public/docs/license.pdf.',
-      'До публикации PDF при необходимости уточняйте данные в кабинете.',
+      'Сведения о лицензии и реквизитах медицинской деятельности.',
+      'Скачайте архив с документом по кнопке ниже.',
     ],
-    pdfPath: 'docs/license.pdf',
-    downloadButtonLabel: 'Скачать лицензию (PDF)',
+    pdfPath: 'docs/Лицензия_ЛО-15-01-001059.zip',
+    downloadButtonLabel: 'Скачать лицензию',
   },
 
   paidServices: {
@@ -121,7 +121,7 @@ export const siteData = {
 
   documents: {
     sectionTitle: 'Документы',
-    intro: 'Реквизиты лицензии уточняются в кабинете. После публикации PDF лицензия будет доступна для скачивания.',
+    intro: 'Основные документы и сведения по деятельности кабинета.',
     items: [
       { title: 'Лицензия на медицинскую деятельность', note: 'раздел «Лицензия» — файл PDF' },
       { title: 'Перечень УЗИ-исследований', note: 'раздел «О враче» и таблица платных услуг' },
@@ -130,10 +130,9 @@ export const siteData = {
 
   contacts: {
     sectionTitle: 'Контакты',
-    address: 'Адрес кабинета — укажите в siteData.js (контакты → address)',
+    address: 'Адрес кабинета',
     phones: [],
-    phonesNote:
-      'Телефоны для записи: добавьте номера в siteData.js → contacts → phones (массив строк).',
+    phonesNote: 'Телефоны для записи уточняйте в кабинете.',
     email: '',
     schedule: 'Режим работы — уточняйте по телефону при записи.',
     extra: 'Платные услуги. Окончательная стоимость — при записи.',
