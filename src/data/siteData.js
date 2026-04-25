@@ -59,7 +59,7 @@ export const siteData = {
     workers: [
       {
         fullName: 'Цой Л.Б.',
-        photoPath: null,
+        photoPath: 'photo/photo_2026-04-26_00-24-55.jpg',
         position: 'Врач ультразвуковой диагностики',
         specialty: 'Ультразвуковая диагностика',
         education: 'Высшее медицинское',
