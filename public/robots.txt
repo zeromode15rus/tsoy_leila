@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://zeromode15rus.github.io/tsoy_leila/sitemap.xml
+Sitemap: https://tsoi-leyla.ru/sitemap.xml
