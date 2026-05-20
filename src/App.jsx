@@ -259,10 +259,6 @@ export default function App() {
             <div className="license-block">
               {siteData.license.documentHeader ? (
                 <div className="license-document">
-                  <p className="license-document__form">{siteData.license.documentHeader.formOkud}</p>
-                  <p className="license-document__serial">
-                    {siteData.license.documentHeader.blankSeriesNumber}
-                  </p>
                   <p className="license-document__issuer">
                     {siteData.license.documentHeader.issuerLine1}
                     <br />
